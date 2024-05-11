@@ -1,0 +1,17 @@
+.toggle-group{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    /* margin-top: -10px; */
+    margin: 1rem;
+}
+@media only screen and (max-width: 800px) {
+    .toggle-button {
+      font-size: 0.7rem !important;
+      padding: 0.3rem !important;
+    }
+    .toggle-group{
+      margin: 0;
+    }
+  }
